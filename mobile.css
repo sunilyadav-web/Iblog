@@ -1,0 +1,77 @@
+@media screen and (max-width:1200px) {
+    .navigation {
+        flex-direction: column;
+        margin-bottom: 23px;
+        /* padding: 10px 0px; */
+    }
+    .nav-left {
+        flex-direction: column;
+        margin: 10px 0px;
+        text-align: center;
+    }
+    .content-right {
+        display: none;
+    }
+    .content-left h1 {
+        text-align: center;
+        font-size: 27px;
+    }
+    .content-left p {
+        font-size: 16px;
+        text-align: left;
+    }
+    .arti-head {
+        font-size: 23px;
+    }
+    .home-article {
+        flex-direction: column;
+    }
+    .home-article-image img {
+        text-align: center;
+        /* width: 70vw; */
+    }
+    .home-article-content {
+        text-align: left;
+    }
+    .year-box {
+        top: 25px;
+        display: flex;
+        font-size: 11px;
+        flex-direction: row;
+        right: 28vw;
+    }
+    .year-box div {
+        margin: 0px;
+        display: flex;
+        padding: 6px;
+    }
+    .year-box div input {
+        font-size: 11px;
+    }
+    .form-input {
+        width: 50%;
+    }
+    .form-box input,
+    textarea {
+        width: 65vw;
+    }
+    .row {
+        flex-direction: column;
+    }
+    .blog-post-content h1 {
+        font-size: 20px;
+    }
+    .social {
+        padding: 0;
+    }
+    .post-img {
+        height: auto;
+    }
+    .home-article h2 {
+        font-size: 25px;
+    }
+    .home-articles h2 {
+        font-size: 20px;
+        width: 70%;
+    }
+}
